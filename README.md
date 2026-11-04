@@ -1,6 +1,6 @@
 # nexus-ja-data
 
-<!-- mcp-name: io.github.ayatrader/nexus-ja-data -->
+<!-- mcp-name: io.github.japan-ai-tools/nexus-ja-data -->
 
 **A local MCP server that lets AI agents clean Japanese business data with fixed rules instead of guessing.**
 
