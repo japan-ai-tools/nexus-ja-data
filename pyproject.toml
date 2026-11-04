@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nexus-ja-data"
-version = "0.2.0"
+version = "0.2.1"
 description = "Normalize Japanese company names, phones, addresses, era dates and dedupe records. Local, stdlib."
 readme = "README.md"
 license = { text = "MIT" }
@@ -23,8 +23,8 @@ dependencies = []
 nexus-ja-data = "nexus_ja.server:main"
 
 [project.urls]
-Homepage = "https://github.com/ayatrader/nexus-ja-data"
-Source = "https://github.com/ayatrader/nexus-ja-data"
+Homepage = "https://github.com/japan-ai-tools/nexus-ja-data"
+Source = "https://github.com/japan-ai-tools/nexus-ja-data"
 
 [tool.setuptools]
 packages = ["nexus_ja"]
