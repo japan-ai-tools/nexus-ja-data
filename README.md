@@ -53,6 +53,9 @@ ClaudeやChatGPTなどのAIに登録すると、AIが日本語の会社名・電
 ```
 `cwd` が使えないアプリでは `"args": ["C:\\...\\nexus-ja-data\\run_server.py"]` を指定する。
 
+MCP protocol: the stdio server speaks both the classic `initialize` flow (2025-06-18 and earlier) and the stateless 2026-07-28 revision (`server/discover`, per-request `_meta`). Tested in `tests/test_mcp_2026.py`.
+MCP の新しい版(2026-07-28・server/discover)と従来の initialize の両方で動きます。
+
 ## 配布条件
 MITライセンス(無料・商用利用可)。行数の制限なし。
 人間が画面で使える同じルールの道具「名寄せ赤ペン」は BOOTH で販売中: https://nexus-tools.booth.pm/items/9051166
