@@ -63,3 +63,10 @@ MITライセンス(無料・商用利用可)。行数の制限なし。
 ## 品質
 - テスト11件(`python -m unittest discover -s tests`): 正規化の期待値、名寄せ、MCPとしての通し会話(初期化→一覧→呼び出し→エラー処理)、壊れた入力でも落ちない、外部通信コードなし、JavaScript版との一致
 - 2026-10-27: 全件成功
+
+
+## Related tool from the same author
+
+- After you clean up a supplier list with this server, [invoice-watch](https://github.com/japan-ai-tools/invoice-watch) can compare that list with the NTA's published invoice-registration data and report only the suppliers whose registration was cancelled, expired or renamed.
+
+関連(同じ作者): 取引先の一覧を名寄せで整えたら、[取引先インボイス見張り(invoice-watch)](https://github.com/japan-ai-tools/invoice-watch) がその一覧を国税庁の公表データと照らして、登録の取消・失効・名称の変化だけを知らせます。税務の助言ではありません(Not tax advice)。
